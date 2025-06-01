@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: sans-serif;
+}
+body{
+    overscroll-behavior: none;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.container{
+    width: 60%;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: clamp(40px,4vw,60px);
+}
+p{
+    font-size: clamp(15px,1vw,25px);
+}
